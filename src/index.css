@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  color: rgb(0, 140, 255);
+}
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+input {
+  width: 25rem;
+  height: 2.3rem;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.btn {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 5px 1.2rem;
+  background-color: rgb(153, 255, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dlt-btn {
+  background-color: transparent;
+  color: rgb(255, 0, 0);
+  padding: 5px 10px;
+  border: transparent;
+  outline: transparent;
+  border-radius: 5px;
+  letter-spacing: .5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.play-btn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: .5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.reset-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: .5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.play-reset-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+ul {
+  width: 110%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+}
+li {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+
+.gif{
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+img{
+  border-radius: 5px;
+}
+
+.popup-content {
+  letter-spacing: 2px;
+  border-radius: 10px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 0);
+}
+
+.popup-overlay {
+  backdrop-filter: blur(10px);
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 1rem;
+}
+
+.content {
+  font-size: 1.2rem;
+  color: rgb(248, 0, 0);
+}
+
+.close {
+  padding: 3px 8px;
+  font-size: 16px;
+  border-radius: 50%;
+  border: 1px solid red;
+  color: red;
+  cursor: pointer;
+}
